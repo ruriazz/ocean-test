@@ -1,0 +1,78 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binaries
+bin/
+build/
+dist/
+
+# Dependency directories
+vendor/
+
+# Go Modules
+# Do not ignore go.mod and go.sum
+# go.sum
+# go.mod
+
+# IDE or editor directories
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+
+# Coverage files
+*.cov
+*.cover
+
+# Additional configuration files
+*.env
+!local.env
+
+# Build artifacts from `go build`
+*.a
+*.cgo1.go
+*.cgo2.go
+*.h
+*.i
+*.o
+*.pdb
+*.so
+*.test
+*.x86_64
+*.x86
+*.x86_64.so
+
+# Go binaries
+go-build/
+
+# Miscellaneous
+*.tgz
+*.gz
+*.zip
+*.tar
+*.7z
+
+# JetBrains IDE
+*.iml
