@@ -82,7 +82,7 @@ To run the project, use the following command:
 ```sh
 go run main.go
 ```
-The server will start and be accessible at http://localhost:8080.
+The server will start and be accessible at http://localhost:8000.
 
 
 
